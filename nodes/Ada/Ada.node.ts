@@ -9,7 +9,7 @@ export class Ada implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Ada',
 		name: 'ada',
-		icon: { light: 'file:../icons/ada.svg', dark: 'file:../icons/ada.dark.svg' },
+		icon: { light: 'file:../../icons/ada.svg', dark: 'file:../../icons/ada.dark.svg' },
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',

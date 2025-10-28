@@ -1,19 +1,19 @@
 {
-	"name": "n8n-nodes-<...>",
+	"name": "n8n-nodes-ada",
 	"version": "0.1.0",
-	"description": "",
+	"description": "Ada API integration for n8n",
 	"license": "MIT",
-	"homepage": "",
+	"homepage": "https://ada.im",
 	"keywords": [
 		"n8n-community-node-package"
 	],
 	"author": {
-		"name": "",
-		"email": ""
+		"name": "Saber Kurama",
+		"email": "463561248@qq.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/<...>/n8n-nodes-<...>.git"
+		"url": "https://github.com/Saber-Kurama/n8n-nodes-ada.git"
 	},
 	"scripts": {
 		"build": "n8n-node build",
@@ -30,14 +30,8 @@
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"strict": true,
-		"credentials": [
-			"dist/credentials/GithubIssuesApi.credentials.js",
-			"dist/credentials/GithubIssuesOAuth2Api.credentials.js"
-		],
-		"nodes": [
-			"dist/nodes/GithubIssues/GithubIssues.node.js",
-			"dist/nodes/Example/Example.node.js"
-		]
+		"credentials": ["dist/credentials/AdaApi.credentials.js"],
+    "nodes": ["dist/nodes/Ada/Ada.node.js"]
 	},
 	"devDependencies": {
 		"@n8n/node-cli": "*",
