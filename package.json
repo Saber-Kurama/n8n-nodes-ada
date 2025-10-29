@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-ada",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Ada API integration for n8n",
 	"license": "MIT",
 	"homepage": "https://ada.im",
@@ -30,8 +30,12 @@
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"strict": true,
-		"credentials": ["dist/credentials/AdaApi.credentials.js"],
-    "nodes": ["dist/nodes/Ada/Ada.node.js"]
+		"credentials": [
+			"dist/credentials/AdaApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/Ada/Ada.node.js"
+		]
 	},
 	"devDependencies": {
 		"@n8n/node-cli": "*",
