@@ -69,7 +69,7 @@ export const dataVisualizationDescription: INodeProperties[] = [
     displayName: 'Input JSON Data',
     name: 'input_json',
     type: 'json',
-    noDataExpression: true,
+    noDataExpression: false,
     displayOptions: {
       show: showOnlyForCompanies,
     },
@@ -85,7 +85,7 @@ export const dataVisualizationDescription: INodeProperties[] = [
     displayName: 'Query',
     name: 'query',
     type: 'string',
-    noDataExpression: true,
+    noDataExpression: false,
     displayOptions: {
       show: showOnlyForCompanies,
     },
