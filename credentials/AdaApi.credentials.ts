@@ -13,7 +13,7 @@ export class AdaApi implements ICredentialType {
 
 	icon: Icon = { light: 'file:../icons/ada.svg', dark: 'file:../icons/ada.dark.svg' };
 
-	documentationUrl = 'https://github.com/org/repo?tab=readme-ov-file#credentials';
+	documentationUrl = 'https://www.npmjs.com/package/n8n-nodes-ada';
 	properties: INodeProperties[] = [
 		{
 			displayName: 'API Key',
