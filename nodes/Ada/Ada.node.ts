@@ -11,8 +11,10 @@ export class Ada implements INodeType {
 		name: 'ada',
 		icon: { light: 'file:../../icons/ada.svg', dark: 'file:../../icons/ada.dark.svg' },
 		group: ['transform'],
-		version: 1,
-		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
+		defaultVersion: 1,
+		version: [1],
+		// subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
+		subtitle: '',
 		description: 'Interact with the Ada API',
 		defaults: {
 			name: 'Ada',
