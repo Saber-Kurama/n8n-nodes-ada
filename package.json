@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-ada",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"description": "Ada API integration for n8n",
 	"license": "MIT",
 	"homepage": "https://ada.im",
