@@ -7,7 +7,7 @@ import { dataVisualizationDescription } from './resources/data-visualization';
 
 export class Ada implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Ada',
+		displayName: 'Data Analysis',
 		name: 'ada',
 		icon: { light: 'file:../../icons/ada.svg', dark: 'file:../../icons/ada.dark.svg' },
 		group: ['transform'],
@@ -17,7 +17,7 @@ export class Ada implements INodeType {
 		subtitle: '',
 		description: 'Interact with the Ada API',
 		defaults: {
-			name: 'Ada',
+			name: 'Data Analysis',
 		},
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
